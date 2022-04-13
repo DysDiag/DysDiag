@@ -1,0 +1,162 @@
+body{
+    background-image: url('dysgraphia_bg.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    height: 130vh;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.glass{
+    display: block;
+    background: white;
+    min-height: 80%;
+    width: 70%;
+    background: linear-gradient(to right bottom, rgba(255,255,255,0.7),rgba(255,255,255,0.3));
+    border-radius: 2rem;
+    z-index: 3;
+    backdrop-filter: blur(2rem);
+}
+
+#catch_line{
+    margin-top: 4%;
+    margin-left: 13%;
+    margin-right: 13%;
+    font-family: "Comic Sans MS";
+    align-content: center;
+    text-align: center;
+    font-size: x-large;
+    color: darkcyan;
+}
+
+#heading{
+    text-align: center;
+    font-family: "Lucida Handwriting";
+    font-size:x-large;
+    color: #4C5656;
+}
+
+#text{
+    text-align: center;
+    font-family:  "Lucida Sans";
+    font-size: medium;
+    color: coral;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#disclaimer{
+    text-align: center;
+    font-size: small;
+    color: #4C5656;
+    font-family: "Lucida Sans" ;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+.btn {
+    opacity: 0;
+    width: 0.1px;
+    height: 0.1px;
+    position: absolute;
+}
+
+.lbl {
+    display: block;
+    position: relative;
+    width: 200px;
+    left: 40%;
+    margin-top: 4%;
+    height: 40px;
+    border-radius: 20px;
+    background: linear-gradient(40deg, #ffb2b2, #00fcef);
+    box-shadow: 0 4px 7px rgb(255, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Sans";
+    color: #4C5656;
+}
+
+#pre_results{
+    width: 300px;
+    height: 80px;
+    visibility: hidden;
+}
+
+#display_image{
+    display: inline-block;
+    margin-left: 7%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 400px;
+    height: 220px;
+    border-radius: 10%;
+    background-position: center;
+    background-size: cover;
+}
+#main{
+    display: inline-block;
+}
+
+#dis_result{
+    top: 370px;
+    margin-top: 4%;
+    margin-left: 18%;
+    position: absolute;
+    font-family: 'Lucida Handwriting';
+    font-size: x-large;
+    color: #4C5656;
+}
+#dys{
+    top: 465px;
+    margin-left:15% ;
+    position: absolute;
+    font-family: 'Lucida Console';
+    font-size: medium;
+    margin-top: 0%;
+    color: darkcyan;
+}
+#normal{
+    top: 475px;
+    margin-left:17% ;
+    position: absolute;
+    font-family: 'Lucida Console';
+    font-size: medium;
+    margin-top: 4%;
+    margin-bottom: 40%;
+    color: darkcyan;
+}
+
+#nxt_test_btn{
+    display: inline;
+    width: 105px;
+    position: absolute;
+    left: 83%;
+    top: 560px;
+    margin-top: 0%;
+    height: 30px;
+    border-radius: 20px;
+    border-width: 0px ;
+    background: linear-gradient(40deg, #d8acff, #90e1ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Sans";
+    color: #4C5656;
+}
+
+#nxt_test_txt{
+    margin-left: 2%;
+    top: 565px;
+    position: absolute;
+    font-family: 'Comic Sans MS';
+    font-size: medium;
+    margin-top: 0%;
+    color: #1e3c54;
+}
